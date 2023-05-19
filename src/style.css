@@ -24,6 +24,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .dice-container {
@@ -43,4 +45,19 @@ body {
     cursor: pointer;
     background-color: #fff;
     font-size: 1.4rem;
+}
+
+.roll-dice-btn {
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5035FF;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.roll-dice-btn:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
